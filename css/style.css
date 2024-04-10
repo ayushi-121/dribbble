@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+#signup-form {
+    max-width: 380px;
+    margin:auto;
+    padding: 0px;
+    position:initial;
+  }
+  
+#signup-form h1 {
+    
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+.sign-in p {
+    color: #131313;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*padding-left:100px;*/
+  }
+
+.right .sign-in {
+  padding-left: 600px;
+}
+.sign-in {
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+  }
+#signup-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+#signup-form input[type="text"],
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+    width: 88%;
+    padding: 8px;
+    border: 1px solid rgb(235, 228, 228);
+    background-color:rgb(235, 228, 228);
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+ 
+#signup-form .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+#signup-form .checkbox-wrapper input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 40px;
+  }
+  
+#signup-form button[type="submit"] {
+    background-color: #ff06c9;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+#signup-form button[type="submit"]:hover {
+    background-color: #0067cc;
+  }
+  
+#signup-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  #signup-form form p {
+    color:dimgray;
+    font-size: smaller;
+
+  }
+  #signup-form form p span{
+    color:blueviolet;
+    font-size: smaller;
+  }
+
+  #signup-form form #terms {
+    color: dimgray;
+    font-size: 13px;
+  }
+
+  #signup-form form #terms span {
+    color:blueviolet;
+    font-size: 13px;
+  }
+
+.left h3{
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    color:darkgoldenrod;
+  }
+.left h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkgoldenrod;
+    font-weight:bolder;
+ }
+.left h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkgoldenrod;
+    font-weight:bolder;
+ }
+.left {
+    padding-left:40px;
+    padding-top: 18px;
+    padding-right: 30px;
+  }
+
+ /* MEDIA QUERY */
+/* @media screen and (max-width: 767px) {
+  body {
+      font-size: 14px; 
+  }
+
+  .left {
+      width: 100%; 
+  }
+
+  .right {
+      width: 100%; 
+      margin-top: 20px; 
+  }
+
+  #signup-form {
+      padding: 0 20px; 
+  }
+
+  #signup-form form {
+      max-width: 100%;
+  }
+
+  #signup-form form label,
+  #signup-form form input {
+      width: 100%; 
+  }
+
+  .checkbox-wrapper label {
+      font-size: 12px; 
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+#signup-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+#signup-form {
+    max-width: 400px;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+    width: calc(50% - 6px);
+}
+} */
